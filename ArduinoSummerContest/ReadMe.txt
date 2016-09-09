@@ -1,6 +1,8 @@
 Bonjour à tous, 
 
-Ce projet a été commencé fin juin 2016, j'ai mis en ligne :
+Ce projet a été commencé fin juin 2016, il consiste à contrôler un robot avec 2 moteurs + une roue folle grâce à un smartphone avec le bluetooth. Ce robot évite aussi les obstacles qu'il rencontre en s'arrêtant. le code pourrait être modifié afin de le faire changer de direction lorsqu'il détecte un obstacle avec les capteurs à ultrasons. 
+
+Les différents composants utilisés sont dans le fichier .ino (le code), j'ai également mis en ligne :
 
 - le code arduino en .ino, contenant entre autre les principales instructions permettant le fonctionnement de ce robot.
 
