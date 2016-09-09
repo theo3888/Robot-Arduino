@@ -7,9 +7,7 @@
  *  -> Controle de 2 moteurs avec Adafruit Motor Shield 
  *  -> 2 capteur à ultrasons SR-04 qui detectent les potentiels obstacles et font s'arrêter le robot
  *  -> Controle avec module bluetooth hc-05 via une application android créée sur AppInventor2 
- *  -> Haut parleur 50ohms 0.5W (+ transistor et résistance)
- *  -> Module pour carte SD permettant de lire des musiques (WAV, 16000Hz, Mono, 8Bit) stockées sur une carte SD (Qualité - / Difficulté - / Variété des musiques +++)
- *
+ *  
  * A venir : 
  *   -> ?? Controle à l'aide d'un joystick avec AppInventor2 ?? 
  *   -> Controle via capteur infrarouge et telecommande quelconque (TV,Radio...) 
@@ -30,9 +28,6 @@
  *  Module Bluetooth HC-05 :
  *  http://www.cdiscount.com/maison/bricolage-outillage/xcsource-bluetooth-serial-6pin-transceiver-emetteu/f-1170456-xcs4894479245408.html
  *  
- *  Module Carte SD :
- *  http://www.dx.com/fr/p/micro-sd-tf-card-slot-reading-writing-modules-blue-silver-2-pcs-205308#.V40qfriLTct
- 
  *  PowerBank 5V :
  *  http://www.boulanger.com/ref/8000530?xtor=SEC-1296-GOO&xts=171153&origin=%7Badtype%7D&kwd=%7Bkeyword%7D&gclid=CjwKEAjw_LG8BRDb1JTxm8uP_UwSJADu_8pWjdmGIgpBdGtNaQZRz9bE3nREWq4l1iHQy8_JWnqAPhoCZW7w_wcB
  *  
@@ -52,10 +47,10 @@
 #define bluetoothRX       3   // Broche RX                   > MODULE BLUETOOTH
 #define bluetoothTX       4   // Broche TX                   > MODULE BLUETOOTH
 
-#define trigPin1          5   // Broche Trig 1               > CAPTEUR A ULTRASONS
-#define echoPin1          6   // Broche Echo 1               > CAPTEUR A ULTRASONS
-#define trigPin2          7   // Broche Trig 2               > CAPTEUR A ULTRASONS
-#define echoPin2          8   // Broche Echo 2               > CAPTEUR A ULTRASONS
+#define trigPin1          6   // Broche Trig 1               > CAPTEUR A ULTRASONS
+#define echoPin1          7   // Broche Echo 1               > CAPTEUR A ULTRASONS
+#define trigPin2          8   // Broche Trig 2               > CAPTEUR A ULTRASONS
+#define echoPin2          9   // Broche Echo 2               > CAPTEUR A ULTRASONS
 
 
  
