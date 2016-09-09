@@ -62,7 +62,7 @@
                      // Variables :
 char bluetoothData;               // Données envoyées par le module Bluetooth
 int distance1, distance2;         // Distance mesurée par le capteur 1 et 2 
-long duree1, duree2;              // Durée du son du capteur 1 et 2 
+long duree1, duree2;              // Durée de l'ultrason du capteur 1 et 2 
 int limite = 50;                  // Limite de distance des capteurs
 int vitesseMoteurs = 60;          // Vitesse des moteurs /255
 
