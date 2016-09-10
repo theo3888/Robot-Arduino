@@ -99,16 +99,6 @@ void loop()
       bluetoothData = bluetooth.read();
      }
      
-      if (bluetoothData >=20 )
-      {
-        moteurDroit->setSpeed(bluetoothData);  // Redéfini la vitesse du moteur droit /255
-        moteurGauche->setSpeed(bluetoothData); // Redéfini la vitesse du moteur gauche /255 
-      }
-      
-        moteurDroit -> run (RELEASE);
-        moteurGauche -> run (RELEASE);
-        
-    
           switch(bluetoothData)
           {
             case 0 : // Avancer quand le module bluetooth reçoit le chiffre 0 
