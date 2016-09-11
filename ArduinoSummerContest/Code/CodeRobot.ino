@@ -56,15 +56,15 @@
  
                      // Variables :
 char bluetoothData;               // Données envoyées par le module Bluetooth
-int distance1, distance2;         // Distance mesurée par le capteur 1 et 2 
+int distance1, distance2;         // Distance mesurée par le capteur 1 et 2 (en cm)
 long duree1, duree2;              // Durée de l'ultrason du capteur 1 et 2 
-int limite = 50;                  // Limite de distance des capteurs
+int limite = 50;                  // Limite de distance des capteurs (en cm)
 int vitesseMoteurs = 60;          // Vitesse des moteurs /255
 
 
-SoftwareSerial bluetooth (bluetoothTX, bluetoothRX); //Change les pins de la voie série (Rx, Tx)
+SoftwareSerial bluetooth (bluetoothTX, bluetoothRX); //Change les pins de la voie série
 
-Adafruit_MotorShield AFMS = Adafruit_MotorShield();   // Initialise la carte
+Adafruit_MotorShield AFMS = Adafruit_MotorShield();   // Initialise la shield moteur
  
 Adafruit_DCMotor *moteurGauche = AFMS.getMotor(1);    // Le moteur 1 est le moteur gauche
 Adafruit_DCMotor *moteurDroit = AFMS.getMotor(2);     // Le moteur 2 est le moteur droit
